@@ -22,6 +22,6 @@ export class Tab1Page {
   }
 
   onClick(){
-    this.router.navigate(['video/']);
+    this.router.navigate(['videos/']);
   }
 }

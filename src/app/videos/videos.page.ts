@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-video',
-  templateUrl: './video.page.html',
-  styleUrls: ['./video.page.scss'],
+  selector: 'app-videos',
+  templateUrl: './videos.page.html',
+  styleUrls: ['./videos.page.scss'],
 })
-export class VideoPage implements OnInit {
+export class VideosPage implements OnInit {
 
   // Optional parameters to pass to the swiper instance.
   // See http://idangero.us/swiper/api/ for valid options.

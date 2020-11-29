@@ -7,12 +7,20 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path: 'video',
-    loadChildren: () => import('./video/video.module').then( m => m.VideoPageModule)
-  },
-  {
     path: 'chat',
     loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'student-modal',
+    loadChildren: () => import('./student-modal/student-modal.module').then( m => m.StudentModalPageModule)
+  },
+  {
+    path: 'videos',
+    loadChildren: () => import('./videos/videos.module').then( m => m.VideosPageModule)
   }
 ];
 @NgModule({
